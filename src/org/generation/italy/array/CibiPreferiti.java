@@ -11,7 +11,7 @@ public class CibiPreferiti {
 		
 		System.out.println("Il mio cibo più preferito tra i preferiti è " + cibiPreferiti[0]);
 		System.out.println("Il mio cibo meno preferito tra i preferiti è " + cibiPreferiti[cibiPreferiti.length-1]);
-		System.out.println("Il mio cibo che non è meglio ne peggio è " + cibiPreferiti[cibiPreferiti.length/2]);
+		System.out.println("Il mio cibo che non è meglio ne peggio è " + cibiPreferiti[(cibiPreferiti.length-1)/2]);
 		
 	}
 
